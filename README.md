@@ -1,2 +1,3 @@
-# catalogos-dados-brasil
-Mapeamento de iniciativas (e catálogos) de dados abertos governamentais no Brasil.
+# Catálogos de dados abertos no Brasil
+
+Um mapeamento de iniciativas (e catálogos) de dados abertos governamentais no Brasil.
