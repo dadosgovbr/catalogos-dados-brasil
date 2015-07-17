@@ -1,0 +1,26 @@
+Título,URL,Município,UF,Esfera,Poder,Solução
+Alagoas em dados e informações,http://dados.al.gov.br/,,AL,Estadual,Executivo,CKAN
+Fortaleza Dados Abertos,http://dados.fortaleza.ce.gov.br/,Fortaleza,CE,Municipal,Executivo,CKAN
+Dados abertos – TCM-CE,http://api.tcm.ce.gov.br/,,CE,,Legislativo,Interna
+Dados abertos Distrito Federal,http://www.dadosabertos.df.gov.br/,,DF,Estadual,Executivo,CKAN
+Dados abertos – Governo do ES,http://www.transparencia.es.gov.br/menu_principal/dados_abertos.asp,,ES,Estadual,Executivo,Interna
+Dados abertos – Goiás Transparente,http://www.transparencia.go.gov.br/pagina.php?id=740,,GO,Estadual,Executivo,Interna
+Dados abertos – Assembleia de Minas,http://dadosabertos.almg.gov.br/ws/ajuda/sobre,,MG,Estadual,Legislativo,Interna
+Dados abertos – Estado de MG,http://www.transparencia.mg.gov.br/dados-abertos,,MG,Estadual,Executivo,CKAN
+Dados abertos do SAGRES – TCE/PB,http://portal.tce.pb.gov.br/dados-abertos-do-sagres-tcepb/,,PB,Estadual,Legislativo,Interna
+Dados abertos – Governo de Pernambuco,http://www.dadosabertos.pe.gov.br/,,PE,Estadual,Executivo,Interna
+Dados Recife,http://dados.recife.pe.gov.br,Recife,PE,Municipal,Executivo,CKAN
+Dados Abertos Curitiba,http://www.curitiba.pr.gov.br/dadosabertos/,Curitiba,PR,Municipal,Executivo,Interna
+data.rio,http://data.rio/,Rio de Janeiro,RJ,Municipal,Executivo,CKAN
+Desafio Rio Ideias,http://ideias.rioapps.com.br/,Rio de Janeiro,RJ,Municipal,Executivo,Interna
+Rio datamine,http://riodatamine.com.br/,Rio de Janeiro,RJ,Municipal,Executivo,Interna
+Dados Geográficos Abertos da Cidade do Rio de Janeiro,http://portalgeo.pcrj.opendata.arcgis.com/,Rio de Janeiro,RJ,Municipal,Executivo,ArcGIS
+Dados RS,http://dados.rs.gov.br/,,RS,Estadual,Executivo,CKAN
+Dados abertos governamentais – Secretaria de Segurança Pública,http://www.ssp.rs.gov.br/?model=conteudo&menu=196,,RS,Estadual,Executivo,Interna
+Dados abertos Novo Hamburgo,http://dados.novohamburgo.rs.gov.br/,Novo Hamburgo,RS,Municipal,Executivo,CKAN
+DataPOA,http://www.datapoa.com.br/,Porto Alegre,RS,Municipal,Executivo,CKAN
+Governo Aberto SP,http://www.governoaberto.sp.gov.br/,,SP,Estadual,Executivo,Interna
+Programa de Dados Abertos do Parlamento,http://www.camara.sp.gov.br/transparencia/dados-abertos/,São Paulo,SP,Municipal,Legislativo,Interna
+Catálogo Municipal de Bases de Dados,http://transparencia.prefeitura.sp.gov.br/administracao/Paginas/cmbd.aspx,São Paulo,SP,Municipal,Executivo,Interna
+Dados abertos – e-cidadania,http://dadosabertos.senado.gov.br/,,,Federal,Legislativo,CKAN
+Dados abertos da Câmara dos Deputados,http://www2.camara.leg.br/transparencia/dados-abertos/,,,Federal,Legislativo,Interna
