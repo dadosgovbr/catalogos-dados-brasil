@@ -27,3 +27,5 @@ Dados abertos da Câmara dos Deputados,http://www2.camara.leg.br/transparencia/d
 FEE dados abertos,http://dados.fee.tche.br/,,RS,Estadual,Executivo,Interna
 Dados Abertos TCE-RS,http://dados.tce.rs.gov.br/,,RS,Estadual,Legislativo,CKAN
 Dados Abertos MPRS,http://dados.mprs.mp.br/,,RS,Estadual,,Interna
+Portal Brasileiro de Dados Abertos, http://dados.gov.br/,,,Federal,Executivo,CKAN
+API de Compras Governamentais, http://compras.dados.gov.br/,,,Federal,Executivo,Interna
