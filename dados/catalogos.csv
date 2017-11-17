@@ -2,7 +2,7 @@ Título,URL,Município,UF,Esfera,Poder,Solução
 Alagoas em dados e informações,http://dados.al.gov.br/,,AL,Estadual,Executivo,CKAN
 Fortaleza Dados Abertos,http://dados.fortaleza.ce.gov.br/,Fortaleza,CE,Municipal,Executivo,CKAN
 Dados abertos – TCM-CE,http://api.tcm.ce.gov.br/,,CE,Estadual,Legislativo,Interna
-Dados abertos Distrito Federal,http://www.dadosabertos.df.gov.br/,,DF,Estadual,Executivo,CKAN
+Dados abertos Distrito Federal,http://www.transparencia.df.gov.br/,,DF,Estadual,Executivo,Interna
 Dados abertos – Governo do ES,http://www.transparencia.es.gov.br/menu_principal/dados_abertos.asp,,ES,Estadual,Executivo,Interna
 Dados abertos – Goiás Transparente,http://www.transparencia.go.gov.br/pagina.php?id=740,,GO,Estadual,Executivo,Interna
 Dados abertos – Assembleia de Minas,http://dadosabertos.almg.gov.br/ws/ajuda/sobre,,MG,Estadual,Legislativo,Interna
@@ -23,7 +23,7 @@ Governo Aberto SP,http://www.governoaberto.sp.gov.br/,,SP,Estadual,Executivo,Int
 Programa de Dados Abertos do Parlamento,http://www.camara.sp.gov.br/transparencia/dados-abertos/,São Paulo,SP,Municipal,Legislativo,Interna
 Catálogo Municipal de Bases de Dados,http://transparencia.prefeitura.sp.gov.br/administracao/Paginas/cmbd.aspx,São Paulo,SP,Municipal,Executivo,Interna
 Dados abertos – e-cidadania,http://dadosabertos.senado.gov.br/,,,Federal,Legislativo,CKAN
-Dados abertos da Câmara dos Deputados,http://www2.camara.leg.br/transparencia/dados-abertos/,,,Federal,Legislativo,Interna
+Dados abertos da Câmara dos Deputados,https://dadosabertos.camara.leg.br/,,,Federal,Legislativo,Interna
 FEE dados abertos,http://dados.fee.tche.br/,,RS,Estadual,Executivo,Interna
 Dados Abertos TCE-RS,http://dados.tce.rs.gov.br/,,RS,Estadual,Legislativo,CKAN
 Dados Abertos MPRS,http://dados.mprs.mp.br/,,RS,Estadual,,Interna
@@ -33,3 +33,4 @@ Portal dos Dados Abertos TCE/RN,http://apidadosabertos.tce.rn.gov.br/,,RN,Estadu
 Portal de Dados Abertos da Cidade de São Paulo,http://dados.prefeitura.sp.gov.br/,São Paulo,SP,Municipal,Executivo,CKAN
 Câmara de Itabira – Dados Abertos,http://www.itabira.cam.mg.gov.br/dados-abertos,Itabira,MG,Municipal,Legislativo,Interna
 Portal dos Dados Abertos da Alesp – al.sp.gov.br,https://www.al.sp.gov.br/dados-abertos/,,SP,Estadual,Legislativo,Interna
+Dados abertos – painel emendas,http://www9.senado.gov.br/painelemendas,,,Federal,Legislativo,Interna
