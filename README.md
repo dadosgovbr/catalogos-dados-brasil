@@ -11,6 +11,7 @@ Um catálogo de dados é uma coleção curada de metadados a respeito de conjunt
 Para fazer parte dessa lista, a iniciativa deve satisfazer as seguintes condições:
 
 * ser de responsabilidade de algum órgão público brasileiro;
+* o órgão público não ser vinculado ou subordinado a uma instituição superior que também possui iniciativa de dados abertos (nesses casos, os dados devem ser agregados no portal desta instituição e este, por sua vez, será incluído na base);
 * conter um catálogo ou portal com múltiplos [conjuntos de dados](http://dados.gov.br/paginas/faq/#q10), dos quais uma expressiva parte possam ser considerados [dados abertos](http://dados.gov.br/pagina/dados-abertos) e que abranjam uma expressiva parte do portfólio da instituição pública;
 * conter metadados relevantes que contextualizem os dados, tais como título, descrição, informação de quem são os responsáveis pelos dados, etc.
 
@@ -21,6 +22,8 @@ Em especial, são exemplos de sites que não se qualificam:
 * APIs de dados abertos, quando representarem um único conjunto de dados de uma única área específica dentro da instituição;
 * portais da transparência ou outros que contenham informações, mas não dados brutos e estruturados;
 * portais de dados que contenham predominantemente dados não abertos ou com licença restritiva;
+* portais de dados abertos de órgãos públicos vinculados ou subordinados a outros que também possam portais de dados abertos (nesses casos, os dados devem ser agregados no portal desta instituição e este, por sua vez, será incluído na base);
+* portais que contenham apenas catálogo de bases de dados, sem disponibilizar downloads de dados abertos relacionados a essas bases;
 * visualizações, painéis de *business intelligence/analytics* ou similares.
 
 ## Como contribuir
