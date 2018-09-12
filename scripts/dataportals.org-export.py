@@ -34,6 +34,33 @@ def slug(name):
     slug = re.sub('[-]+', '-', slug)
     return slug
 
+def is_other(name):
+    'Takes a guess whether or not the name refers to a another kind of entity, e.g. court of accounts.'
+    other = False
+    if 'tribunal' in name.lower():
+        other = True
+    if 'tce' in name.lower():
+        other = True
+    if 'tcm' in name.lower():
+        other = True
+    if 'mp' in name.lower():
+        other = True
+    return other
+
+def description(name, municipality, state, power):
+    'Try to guess a description in some cases, if possible.'
+    if is_other(name):
+        return ''
+    if municipality and state and power == 'Executivo':
+        return 'Open Data portal of the city of {}, {}, in Brazil'.format(municipality, state)
+    if state and power == 'Executivo':
+        return 'Open Data portal of the state of {}, in Brazil'.format(state)
+    if municipality and state and power == 'Legislativo':
+        return 'Open Data portal of the local parliament of the city of {}, {}, in Brazil'.format(municipality, state)
+    if state and power == 'Legislativo':
+        return 'Open Data portal of the local parliament of the state of {}, in Brazil'.format(state)
+    return ''
+
 # Read the data from the Brazilian repository of data catalogs
 
 with open('../dados/catalogos.csv') as br_csv:
@@ -56,10 +83,12 @@ with open('../dados/catalogos.csv') as br_csv:
             # Is it a city catalog?
             if br_catalog.get('Município','') and br_catalog.get('UF',''):
                 new_portal['place'] = ', '.join((br_catalog['Município'], br_catalog['UF'], 'Brazil'))
-                if br_catalog.get('Poder','') == 'Executivo':
-                    new_portal['description'] = 'Open Data portal of the city of {}, {}, in Brazil'.format(br_catalog['Município'], br_catalog['UF'])
-                elif br_catalog['Poder'] == 'Legislativo':
-                    new_portal['description'] = 'Open Data portal of the local parliament of {}, {}, in Brazil'.format(br_catalog['Município'], br_catalog['UF'])
+                new_portal['description'] = description(
+                    br_catalog.get('Título',''),
+                    br_catalog.get('Município',''),
+                    br_catalog.get('UF',''),
+                    br_catalog.get('Poder','')
+                    )
                 tags.append('city')
                 tags.append('local-government')
                 tags.append('br-' + br_catalog['UF'])
@@ -67,10 +96,12 @@ with open('../dados/catalogos.csv') as br_csv:
             # or is it a state catalog?
             elif br_catalog.get('UF',''):
                 new_portal['place'] = ', '.join((br_catalog['UF'], 'Brazil'))
-                if br_catalog.get('Poder','') == 'Executivo':
-                    new_portal['description'] = 'Open Data portal of the state of {}, in Brazil'.format(br_catalog['UF'])
-                elif br_catalog['Poder'] == 'Legislativo':
-                    new_portal['description'] = 'Open Data portal of the local parliament of {}, in Brazil'.format(br_catalog['UF'])
+                new_portal['description'] = description(
+                    br_catalog.get('Título',''),
+                    br_catalog.get('Município',''),
+                    br_catalog.get('UF',''),
+                    br_catalog.get('Poder','')
+                    )
                 tags.append('local-government')
                 tags.append('br-' + br_catalog['UF'])
             # Does it use CKAN?
