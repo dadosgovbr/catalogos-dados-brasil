@@ -80,6 +80,6 @@ with open('../dados/catalogos.csv') as br_csv:
                 new_portal['api_endpoint'] = urljoin(br_catalog['URL'], '/api/3')
                 new_portal['api_type'] = 'CKAN API'
             new_portal['tags'] = ','.join(tags)
-            new_portal['metadatacreated'] = str(datetime.now())
+            new_portal['metadatacreated'] = datetime.now().isoformat(timespec='seconds')+'Z'
             br_dataportals.writerow(new_portal)
 
