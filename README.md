@@ -28,5 +28,12 @@ Em especial, são exemplos de sites que não se qualificam:
 
 ## Como contribuir
 
-Contribuições são bem vindas! Se você encontrou um catálogo de dados, verifique primeiro se ele já está na planilha em [dados/catalogos.csv](/dados/catalogos.csv). Para propor a inclusão de um novo catálogo de dados, edite a planilha e faça um *[pull request](https://help.github.com/articles/about-pull-requests/)*.
+Contribuições são bem vindas! Se você encontrou um catálogo de dados, verifique
+primeiro se ele já está na planilha em [dados/catalogos.csv](/dados/catalogos.csv).
+Para propor a inclusão de um novo catálogo de dados, edite a planilha e faça um
+*[pull request](https://help.github.com/articles/about-pull-requests/)*.
+
+Certifique-se de manter a estrutura da planilha (delimitador de campos, uso de
+aspas, etc.), de modo que o commit apenas acrescente a(s) linha(s) que pretende
+contribuir e não altere todo o arquivo.
 
