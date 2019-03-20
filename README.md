@@ -2,6 +2,8 @@
 
 Um mapeamento de iniciativas (e catálogos) de dados abertos governamentais no Brasil.
 
+[![goodtables.io](https://goodtables.io/badge/github/dadosgovbr/catalogos-dados-brasil.svg)](https://goodtables.io/github/dadosgovbr/catalogos-dados-brasil)
+
 ## Definição
 
 Um catálogo de dados é uma coleção curada de metadados a respeito de conjuntos de dados. Essa é a definição especificada pelo [*Data Catalog Vocabulary* (DCAT)](https://www.w3.org/TR/vocab-dcat/#class-catalog).

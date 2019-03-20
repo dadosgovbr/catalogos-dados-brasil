@@ -1,0 +1,110 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "path": "dados/solucao.csv",
+      "profile": "tabular-data-resource",
+      "name": "solucao",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Solução",
+            "type": "string",
+            "format": "default",
+            "description": "Nome da solução de software utilizada. Caso seja uma solução desenvolvida especialmente para o portal específico, sem utilizar parte de uma solução pronta, usar o valor 'interna'."
+          },
+          {
+            "name": "Tipo de Licença",
+            "type": "string",
+            "format": "default",
+            "description": "Se a licença é 'aberta' ou 'proprietária'. Considerar o conceito de aberto da Open Source Initiative."
+          },
+          {
+            "name": "URL",
+            "type": "string",
+            "format": "uri",
+            "description": "Endereço onde a solução de software pode ser encontrada, se houver."
+          },
+          {
+            "name": "Conceito",
+            "type": "string",
+            "format": "uri",
+            "description": "URI de referência no Wikidata ou DBPedia ao conceito do software utilizado."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "dados/catalogos.csv",
+      "profile": "tabular-data-resource",
+      "name": "catalogos",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Título",
+            "type": "string",
+            "format": "default",
+            "description": "Título do catálogo"
+          },
+          {
+            "name": "URL",
+            "type": "string",
+            "format": "uri",
+            "description": "URL do catálogo"
+          },
+          {
+            "name": "Município",
+            "type": "string",
+            "format": "default",
+            "description": "Nome do município, caso a esfera seja 'Municipal'"
+          },
+          {
+            "name": "UF",
+            "type": "string",
+            "format": "default",
+            "description": "Sigla IBGE-2-letras da Unidade da Federação, quando a esfera se aplica ('Estadual' ou 'Municipal')"
+          },
+          {
+            "name": "Esfera",
+            "type": "string",
+            "format": "default",
+            "description": "Esfera do ente federativo brasileiro: 'Municipal', 'Estadual' ou 'Federal'"
+          },
+          {
+            "name": "Poder",
+            "type": "string",
+            "format": "default",
+            "description": "Espécie de poder do ente público: 'Executivo', 'Legislativo', 'Judiciário', ou 'Ministério Público'"
+          },
+          {
+            "name": "Solução",
+            "type": "string",
+            "format": "default",
+            "description": "Nome da solução utilizada no catálogo (presente na tabela solucao.csv)"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "dados abertos",
+    "open data",
+    "data catalogs",
+    "portais de dados"
+  ],
+  "title": "Catálogos de dados abertos no Brasil",
+  "description": "Um mapeamento de iniciativas (e catálogos) de dados abertos governamentais no Brasil.\n\nSão registradas apenas fontes oficiais.",
+  "homepage": "http://dados.gov.br/pagina/outras-iniciativas"
+}
