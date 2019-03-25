@@ -35,6 +35,7 @@
             "description": "URI de referência no Wikidata ou DBPedia ao conceito do software utilizado."
           }
         ],
+        "primarykey" : "Solução",
         "missingValues": [
           ""
         ]
@@ -92,8 +93,18 @@
             "description": "Nome da solução utilizada no catálogo (presente na tabela solucao.csv)"
           }
         ],
+        "primarykey": "URL",
         "missingValues": [
           ""
+        ],
+        "foreignKeys": [
+            {
+                "fields": "Solução",
+                "reference": {
+                    "resource": "solucao",
+                    "fields": "Solução"
+                }
+            }
         ]
       }
     }
