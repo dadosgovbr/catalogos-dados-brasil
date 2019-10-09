@@ -39,11 +39,11 @@ def is_other(name):
     other = False
     if 'tribunal' in name.lower():
         other = True
-    if 'tce' in name.lower():
+    elif 'tce' in name.lower():
         other = True
-    if 'tcm' in name.lower():
+    elif 'tcm' in name.lower():
         other = True
-    if 'mp' in name.lower():
+    elif 'mp' in name.lower():
         other = True
     return other
 
