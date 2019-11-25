@@ -63,7 +63,7 @@ def description(name, municipality, state, power):
 
 # Read the data from the Brazilian repository of data catalogs
 
-with open('../dados/catalogos.csv') as br_csv:
+with open('../../../dados/catalogos.csv') as br_csv:
     br_catalogs = csv.DictReader(br_csv)
     with open ('portals.csv', 'w') as portals_csv:
         br_dataportals = csv.DictWriter(portals_csv, fieldnames=fieldnames)
