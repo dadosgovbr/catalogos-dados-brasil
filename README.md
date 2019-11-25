@@ -6,7 +6,7 @@ Um mapeamento de iniciativas (e catálogos) de dados abertos governamentais no B
 
 ## Definição
 
-Um catálogo de dados é uma coleção curada de metadados a respeito de conjuntos de dados. Essa é a definição especificada pelo [*Data Catalog Vocabulary* (DCAT)](https://www.w3.org/TR/vocab-dcat/#class-catalog).
+Um catálogo de dados é uma coleção curada de metadados a respeito de conjuntos de dados. Essa é a definição especificada pelo [*Data Catalog Vocabulary* (DCAT)](https://www.w3.org/TR/vocab-dcat/#class-catalog). Exemplos de catálogos de dados são: o portal de dados abertos da prefeitura do município X, o portal de dados abertos da assembleia legislativa do estado Y, etc.
 
 ## Critérios de qualificação
 
@@ -31,11 +31,27 @@ Em especial, são exemplos de sites que não se qualificam:
 ## Como contribuir
 
 Contribuições são bem vindas! Se você encontrou um catálogo de dados, verifique
-primeiro se ele já está na planilha em [dados/catalogos.csv](/dados/catalogos.csv).
+primeiro se ele atende aos critérios de qualificação acima. Confira também se
+ele já está na planilha em [dados/catalogos.csv](/dados/catalogos.csv).
 Para propor a inclusão de um novo catálogo de dados, edite a planilha e faça um
 *[pull request](https://help.github.com/articles/about-pull-requests/)*.
 
 Certifique-se de manter a estrutura da planilha (delimitador de campos, uso de
 aspas, etc.), de modo que o commit apenas acrescente a(s) linha(s) que pretende
 contribuir e não altere todo o arquivo.
+
+Se encontrou algum problema no reposítório, você também pode abrir uma
+*[issue](../../issues)* no Github.
+
+## Padronização
+
+Os dados deste repositório estão descritos conforme o padrão
+*[Tabular Data Packages](https://frictionlessdata.io/specs/tabular-data-package/)*
+do *[Frictionless Data](https://frictionlessdata.io/)* (dados sem fricção).
+
+Isto significa que, a cada atualização no repositório, os dados são validados
+automaticamente conforme o esquema definido no arquivo
+[datapackage.json](datapackage.json). O serviço de validação é oferecido pelo
+site [goodtables.io](http://goodtables.io),
+[fornecido pela Open Knowledge](https://discuss.okfn.org/t/launching-goodtables-io-tell-us-what-you-think/5165).
 
