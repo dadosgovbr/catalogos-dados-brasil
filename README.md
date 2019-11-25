@@ -6,7 +6,9 @@ Um mapeamento de iniciativas (e catálogos) de dados abertos governamentais no B
 
 ## Definição
 
-Um catálogo de dados é uma coleção curada de metadados a respeito de conjuntos de dados. Essa é a definição especificada pelo [*Data Catalog Vocabulary* (DCAT)](https://www.w3.org/TR/vocab-dcat/#class-catalog). Exemplos de catálogos de dados são: o portal de dados abertos da prefeitura do município X, o portal de dados abertos da assembleia legislativa do estado Y, etc.
+Um catálogo de dados é uma coleção curada de metadados a respeito de conjuntos de dados. Essa é a definição especificada pelo [*Data Catalog Vocabulary* (DCAT)](https://www.w3.org/TR/vocab-dcat/#class-catalog).
+
+Exemplos de catálogos de dados são: o portal de dados abertos da prefeitura do município X, o portal de dados abertos da assembleia legislativa do estado Y, etc.
 
 ## Critérios de qualificação
 
@@ -21,11 +23,19 @@ Em especial, são exemplos de sites que não se qualificam:
 
 * um único conjunto de dados;
 * repositórios de arquivos sem os respectivos metadados que os contextualizem;
-* APIs de dados abertos, quando representarem um único conjunto de dados de uma única área específica dentro da instituição;
-* portais da transparência ou outros que contenham informações, mas não dados brutos e estruturados;
-* portais de dados que contenham predominantemente dados não abertos ou com licença restritiva;
-* portais de dados abertos de órgãos públicos vinculados ou subordinados a outros que também possam portais de dados abertos (nesses casos, os dados devem ser agregados no portal desta instituição e este, por sua vez, será incluído na base);
-* portais que contenham apenas catálogo de bases de dados, sem disponibilizar downloads de dados abertos relacionados a essas bases;
+* APIs de dados abertos, quando representarem um único conjunto de dados de
+  uma única área específica dentro da instituição;
+* portais da transparência ou outros que contenham informações, mas não dados
+  brutos e estruturados (estes estão catalogados no
+  [levantamento de portais de transparência e dados abertos](https://github.com/augusto-herrmann/transparencia-dados-abertos-brasil/blob/master/LEIAME.md);
+* portais de dados que contenham predominantemente dados não abertos ou com
+  licença restritiva;
+* portais de dados abertos de órgãos públicos vinculados ou subordinados a
+  outros que também possam portais de dados abertos (nesses casos, os dados
+  devem ser agregados no portal desta instituição e este, por sua vez, será
+  incluído na base);
+* portais que contenham apenas catálogo de bases de dados, sem disponibilizar
+  downloads de dados abertos relacionados a essas bases;
 * visualizações, painéis de *business intelligence/analytics* ou similares.
 
 ## Como contribuir
