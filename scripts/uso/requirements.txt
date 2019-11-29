@@ -1,2 +1,5 @@
 datapackage==1.10.0
 tableschema-pandas==1.1.0
+plotly==4.1.0
+plotly-express==0.4.1
+
