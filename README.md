@@ -10,48 +10,24 @@ Um catálogo de dados é uma coleção curada de metadados a respeito de conjunt
 
 Exemplos de catálogos de dados são: o portal de dados abertos da prefeitura do município X, o portal de dados abertos da assembleia legislativa do estado Y, etc.
 
-## Critérios de qualificação
+## Como usar
 
-Para fazer parte dessa lista, a iniciativa deve satisfazer as seguintes condições:
+Há várias maneiras possíveis de utilizar os dados.
 
-* ser de responsabilidade de algum órgão público brasileiro;
-* o órgão público não ser vinculado ou subordinado a uma instituição superior que também possui iniciativa de dados abertos (nesses casos, os dados devem ser agregados no portal desta instituição e este, por sua vez, será incluído na base);
-* conter um catálogo ou portal com múltiplos [conjuntos de dados](http://dados.gov.br/paginas/faq/#q10), dos quais uma expressiva parte possam ser considerados [dados abertos](http://dados.gov.br/pagina/dados-abertos) e que abranjam uma expressiva parte do portfólio da instituição pública;
-* conter metadados relevantes que contextualizem os dados, tais como título, descrição, informação de quem são os responsáveis pelos dados, etc.
-
-Em especial, são exemplos de sites que não se qualificam:
-
-* um único conjunto de dados;
-* repositórios de arquivos sem os respectivos metadados que os contextualizem;
-* APIs de dados abertos, quando representarem um único conjunto de dados de
-  uma única área específica dentro da instituição;
-* portais da transparência ou outros que contenham informações, mas não dados
-  brutos e estruturados (estes estão catalogados no
-  [levantamento de portais de transparência e dados abertos](https://github.com/augusto-herrmann/transparencia-dados-abertos-brasil/blob/master/LEIAME.md);
-* portais de dados que contenham predominantemente dados não abertos ou com
-  licença restritiva;
-* portais de dados abertos de órgãos públicos vinculados ou subordinados a
-  outros que também possam portais de dados abertos (nesses casos, os dados
-  devem ser agregados no portal desta instituição e este, por sua vez, será
-  incluído na base);
-* portais que contenham apenas catálogo de bases de dados, sem disponibilizar
-  downloads de dados abertos relacionados a essas bases;
-* visualizações, painéis de *business intelligence/analytics* ou similares.
+* Pela web: a visualização do
+  [Portal Brasileiro de Dados Abertos](http://dados.gov.br/pagina/outras-iniciativas)
+  é sincronizada com este repositório.
+* Pelo Github: veja a pré-visualização da
+  [tabela](dados/catalogos.csv) que o próprio Github oferece.
+* Pelo seu computador: faça clone do repositório e use a sua ferramenta
+  favorita para abrir o arquivo CSV: Libreoffice Calc, Excel, etc.
+* Pelo Jupyer Notebook / Jupyter Lab: veja o nosso
+  [exemplo / tutorial](scripts/uso/como-usar-com-o-pandas.ipynb) de como usar.
 
 ## Como contribuir
 
-Contribuições são bem vindas! Se você encontrou um catálogo de dados, verifique
-primeiro se ele atende aos critérios de qualificação acima. Confira também se
-ele já está na planilha em [dados/catalogos.csv](/dados/catalogos.csv).
-Para propor a inclusão de um novo catálogo de dados, edite a planilha e faça um
-*[pull request](https://help.github.com/articles/about-pull-requests/)*.
-
-Certifique-se de manter a estrutura da planilha (delimitador de campos, uso de
-aspas, etc.), de modo que o commit apenas acrescente a(s) linha(s) que pretende
-contribuir e não altere todo o arquivo.
-
-Se encontrou algum problema no reposítório, você também pode abrir uma
-*[issue](../../issues)* no Github.
+Que contribuir com informações? Excelente! Leia o nosso
+[guia de contribuição](CONTRIBUTING.md).
 
 ## Padronização
 
